@@ -23,7 +23,7 @@ public class Maintask6 {
         book1.returnBook();
         
         // Try borrowing it again after return
-        System.out.println("\nBorrowing '" + book1.getTitle() + "' again after return:");
+        System.out.println("\nBorrowing '" + book1.getTitle() );
         book1.borrowBook();
         
         System.out.println("\n=== FINAL BOOK STATUS ===");
